@@ -35,6 +35,14 @@ header .pages {
     list-style-type: none;
 }
 
+/* Styling for a tags */
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Bodoni Moda", sans-serif;
+    position: relative;
+}
+
 /* Creating a bottom border effect on hover for nav links */
 header ul li a::after {
     content: '';
