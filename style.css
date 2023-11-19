@@ -137,7 +137,7 @@ header ul li a:hover::after {
     pointer-events: none;
 }
 
-.overlay-text .show {
+.overlay-text.show {
     display: block;
 }
 

@@ -1,5 +1,5 @@
 // Grab the ul element
-const ul = document.querySelector("ul .artwork");
+const ul = document.querySelector("ul.artwork");
 
 // Define the API URL for fetching artwork data
 const API_URL = 'https://api.artic.edu/api/v1/artworks';
@@ -100,7 +100,7 @@ const form = document.querySelector("#search-bar");
 // Add an event listener to the form
 form.addEventListener("submit", (event) => {
     // Prevent the default form submission behavior
-    event.preventDefault()
+    event.preventDefault();
 
     // Clear previous artworks so that when you click the search button it doesnt add to the artworks already displayed
     ul.innerHTML = '';
@@ -206,6 +206,6 @@ form.addEventListener("submit", (event) => {
         };
 
         fetchArtworkData(); // Call the function
-        
+
      }
 })
