@@ -88,3 +88,28 @@ footer ul li {
     margin-left: 230px;
     margin-top: 20px;
 }
+
+
+@media screen and (max-width: 1536px) {
+    header ul {
+        margin-left: 290px;
+        gap: 160px;
+    }
+
+    .text {
+        margin-left: 90px;
+        margin-top: 80px;
+    }
+
+    .image img {
+        height: 500px;
+        padding: 30px;
+        margin-right: 60px;
+        margin-top: 50px;
+    }
+
+    footer ul li {
+        margin-left: 220px;
+        margin-top: 35px;
+    }
+}
