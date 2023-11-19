@@ -91,3 +91,32 @@ header ul li a:hover::after {
     border: none;
     border-bottom: 1px solid gray;
 }
+
+
+
+/* Artwork styles */
+.artwork {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(4, 100px);
+    row-gap: 290px;
+    column-gap: 100px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+/* Styling for individual artwork */
+.single-artwork img {
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 110px;
+    transition: all 0.6s ease-in-out;
+}
+
+/* Zoom effect on each artwork */
+.single-artwork img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
