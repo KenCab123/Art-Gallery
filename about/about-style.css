@@ -4,3 +4,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header stylings */
+header {
+    display: flex;
+    background: black;
+}
+
+/* H2 Stylings */
+h2 {
+    font-weight: 400;
+    font-size: 100px;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: default;
+}
+
+/* Styling the ul in the header */
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 340px;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+/* Styling for the links in the header */
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
