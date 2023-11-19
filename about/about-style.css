@@ -68,3 +68,23 @@ header ul li a {
     margin-right: 60px;
     margin-top: 50px;
 }
+
+
+/* Footer Stylings */
+footer {
+    background: black;
+    margin-top: 61px;
+}
+
+/* Image styling for images inside the footer */
+footer ul li a img {
+    height: 80px;
+}
+
+/* List items stylings inside the footer */
+footer ul li {
+    display: inline-block;
+    margin: 50px;
+    margin-left: 230px;
+    margin-top: 20px;
+}
