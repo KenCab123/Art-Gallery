@@ -1,1 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Gabarito&family=Roboto&family=Roboto+Condensed&display=swap');
+
+/* Reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
